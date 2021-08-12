@@ -1,0 +1,458 @@
+@-ms-viewport{
+    width: device-width;
+  }
+  
+  body{
+    background-color: whitesmoke;
+
+}
+.logo{
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 45% 0px 45%;
+    margin-top:-10px;
+}
+.logoimg{
+    border-style: solid; 
+    padding-left:1px;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    background-color:white;
+    border-width: 0px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 25%);
+    
+}
+.container{
+    padding-top: 10px;;
+    width:100%;
+}
+
+.company-name{
+    text-align:center;
+    padding-left: 6%;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.company-name span{
+    color:red;
+}
+
+.caption{
+    text-align:center;
+    color:grey;
+    margin-top: 10px;
+
+}
+
+.signup-box{
+    display:flex;
+    align-items:center;
+    padding-left: 37%;
+}
+
+.formsign {
+    display:flex;
+    align-items: center;
+    background-color: #fff;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+
+.mainform {
+     display: flex;
+     box-orient: vertical;
+     box-direction: normal;
+     flex-direction: column;
+     max-width: 350px;
+     align-items:center;
+}
+
+/* Join google button syling */
+.googlejoin{
+    padding-top:10px;
+}
+.joingoogle1 {
+    height: 48px;
+    border-radius: 24px;
+    border-color: #0a66c2;
+    background-color: transparent;
+    box-shadow: none;
+
+    padding-bottom:9x;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+    font-weight:600;
+    font-size:17px;
+}
+
+.google-icon {
+    position: relative;
+    top: 44%;
+    transform: translateY(-50%);
+}
+
+.joingoogle2 {
+    color: #0084bf;
+    padding-left: 2px;
+}
+
+.joingoogle1:focus, .joingoogle1:hover:not(:disabled):not(:disabled), .joingoogle1:active:not(:disabled):not(:disabled) {
+    /* background-color: #f6f8fa;  */
+    background-color: #d7e8fb;
+    cursor:pointer;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 25%);
+}
+/* OR line styling */
+.breakline {
+    margin: 18px 40px 28px;
+    flex-direction:row;
+   
+}
+.line1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #dbdbdb;
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    position: relative;
+    top: .45em;
+    margin-left: -106px;
+    margin-right: 40px;
+}
+.line2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #dbdbdb;
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    position: relative;
+    top: .45em;
+    margin-top: -16px;
+    margin-right: -106px;
+    margin-left: 40px;
+}
+
+.OR{
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+/* Forms styling */
+input {
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.email {
+    margin: 0 60px 11px -12px;
+    
+}
+.email1{
+    
+    align-items: center;
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    margin: 0px 38px 0px 38px;
+}
+.email2 {
+    
+    display: flex;
+    height: 36px;
+    flex: 1 0 0;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    min-width: 0;
+}
+.email-span {
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    height: 36px;
+    left: 8px;
+    line-height: 36px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-overflow: ellipsis;
+    transform-origin: left;
+    transition: transform ease-out .1s;
+    user-select: none;
+    white-space: nowrap;
+}
+.emaiorphone {
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 0;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+}
+
+.email3 {
+    align-items: center;
+    flex: 0 0 auto;
+    flex-direction: row;
+    height: 100%;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+.uname {
+    margin: 0 60px 11px -12px;
+}
+.uname1{
+    
+    align-items: center;
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    margin: 0px 38px 0px 38px;
+}
+.uname2 {
+    
+    display: flex;
+    height: 36px;
+    flex: 1 0 0;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    min-width: 0;
+}
+.uname-span {
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    height: 36px;
+    left: 8px;
+    line-height: 36px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-overflow: ellipsis;
+    transform-origin: left;
+    transition: -webkit-transform ease-out .1s;
+    transition: transform ease-out .1s;
+    transition: transform ease-out .1s,-webkit-transform ease-out .1s;
+    user-select: none;
+    white-space: nowrap;
+}
+.username {
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 0;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+}
+.uname3 {
+    align-items: center;
+    flex: 0 0 auto;
+    flex-direction: row;
+    height: 100%;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.pass{
+    margin: 0 60px 11px -12px;
+}
+.pass1{
+    
+    align-items: center;
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    margin: 0px 38px 0px 38px;
+   
+}
+.pass2 {
+    
+    display: flex;
+    height: 36px;
+    flex: 1 0 0;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    min-width: 0;
+}
+
+.pass-span {
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    height: 36px;
+    left: 8px;
+    line-height: 36px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-overflow: ellipsis;
+    transform-origin: left;
+    transition: -webkit-transform ease-out .1s;
+    transition: transform ease-out .1s;
+    transition: transform ease-out .1s,-webkit-transform ease-out .1s;
+    user-select: none;
+    white-space: nowrap;
+}
+.password {
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 0;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+}
+
+.pass3 {
+    align-items: center;
+    flex: 0 0 auto;
+    flex-direction: row;
+    height: 100%;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+/* signup buttom styling */
+.signbtn{
+    width: 100%;
+    margin: 10px -3px 10px -3px;
+}
+.signbtn1{
+    width:100%;
+    margin:0px 0px 0px 0px;
+}
+.signbtn2{
+    width:55%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0px 60px 0px 80px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color:white;
+    border-color: rgb(10,102,194);
+    background: rgb(10,102,194);
+}
+
+.signbtn2:focus, .signbtn2:hover:not(:disabled):not(:disabled), .signbtn2:active:not(:disabled):not(:disabled) {
+    /* background-color: #f6f8fa;  */
+    /* background-color:rgb(0 0 0 /20%); */
+    cursor:pointer;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 25%);
+}
+
+/* agree line styling */
+.agree{
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+ text-align: center;
+}
+
+.agree a{
+    text-decoration: none;
+    color:blue;
+}
+
+/* havaccount styling */
+.havacc{
+    text-align: center;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+    margin-top:-30px;
+    font-weight: 500;
+}
+
+.havacc a{
+    color:blue;
+    text-decoration:none;
+}
+/* Footer sytling... */
+.foot-body p{
+    text-align: center;
+}
+
+.foot-body p a{
+    padding:0px 0px 0px 0px;
+    color:#8e8e8e;
+    padding: 0px 1% 0px 1%;
+    text-decoration: none;    
+
+}
+
+.cpyrights{
+    text-align:center;
+    color: #8e8e8e;
+    margin-top: -5px;
+}
