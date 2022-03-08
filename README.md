@@ -1,2 +1,2 @@
 # Majaio
-web development internship project
+Web Development Internship project - Static website creation (Week 1)
